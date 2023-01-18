@@ -53,7 +53,6 @@ nav{
     justify-content: space-between;
 }
 nav h1 a{
-/* color: #212128; */
 color: #FCFAF7;
 font-size: 1.7rem;
 text-decoration: none;
@@ -64,7 +63,6 @@ text-decoration: none;
 }
 .links a{
    text-decoration: none; 
-   /* color: #212128; */
    color: white;
    font-size: 1.1rem;
 }
@@ -86,7 +84,6 @@ text-decoration: none;
     height: 100%;
 }
 .hero h2{
-    /* color: #212128; */
     color: #FCFAF7;
     font-size: 2rem;
     padding: 0.5rem 0;
@@ -227,20 +224,25 @@ border-radius: 5px;
 
 
 
-@media screen and(min-width:889px) {
+@media screen and  (min-width:769px) and (max-width:1024px) {
+
  header{
  height: 100%;
 }
 .hero{
-    padding: 3rem 0.1rem;
+    padding: 3rem 2rem;
+    flex-direction: column;
+}
+.hero-img{
+width: 100%;
 }
 .hero-txt h2{
-    font-size: 1rem;
+    font-size: 2rem;
 }
 .project-flex{
     grid-template-columns: repeat(2,1fr);
 }
-    
+      
 }
 @media screen and (max-width:768px){
 .preloader h1{
@@ -264,6 +266,10 @@ border-radius: 5px;
   } 
   #text{
     font-size: 1.4rem;
+  }
+    
+   .project-hero{
+    padding: 3rem 1rem;
   }
 
   .project-flex{
