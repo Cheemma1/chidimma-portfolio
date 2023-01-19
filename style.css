@@ -245,14 +245,13 @@ width: 100%;
       
 }
 @media screen and (max-width:768px){
-    body{
-        padding: 2rem 0;
-    }
+    
 .preloader h1{
     font-size: 1.6rem;
 }
     header{
         height: 100%;
+        padding: 2rem 0;
     }
   nav{
     padding: 1rem 0.4rem;
