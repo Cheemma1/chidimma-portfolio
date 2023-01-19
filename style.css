@@ -245,6 +245,9 @@ width: 100%;
       
 }
 @media screen and (max-width:768px){
+    body{
+        padding: 2rem 0;
+    }
 .preloader h1{
     font-size: 1.6rem;
 }
