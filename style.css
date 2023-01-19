@@ -239,13 +239,16 @@ width: 100%;
 .hero-txt h2{
     font-size: 2rem;
 }
+
 .project-flex{
     grid-template-columns: repeat(2,1fr);
 }
       
 }
 @media screen and (max-width:768px){
-    
+    body{
+        text-align: center;
+    }
 .preloader h1{
     font-size: 1.6rem;
 }
@@ -266,7 +269,12 @@ width: 100%;
   .hero{
     flex-direction: column;
     padding: 2rem 0.4rem;
-  } 
+  }
+ 
+  .office{
+    font-style: italic;
+    font-size: 1.5rem;
+  }
   .hero img{
     display: none;
   } 
