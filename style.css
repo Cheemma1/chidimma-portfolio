@@ -282,6 +282,12 @@ width: 100%;
     font-size: 1.4rem;
   }
     
+  .socials p span {
+
+            align-items: center;
+            justify-content: center;
+    }
+
    .project-hero{
     padding: 3rem 1rem;
   }
