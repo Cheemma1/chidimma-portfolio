@@ -246,7 +246,7 @@ width: 100%;
       
 }
 @media screen and (max-width:768px){
-    body{
+    .home-body{
         text-align: center;
     }
 .preloader h1{
@@ -254,8 +254,8 @@ width: 100%;
 }
     header{
         height: 100%;
-        padding-left: 2rem;
-        padding-right: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
   nav{
     padding: 1rem 0.4rem;
