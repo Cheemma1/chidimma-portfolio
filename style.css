@@ -251,7 +251,8 @@ width: 100%;
 }
     header{
         height: 100%;
-        padding: 2rem 0;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
   nav{
     padding: 1rem 0.4rem;
