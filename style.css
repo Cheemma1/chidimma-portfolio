@@ -239,17 +239,23 @@ width: 100%;
 .hero-txt h2{
     font-size: 2rem;
 }
+
 .project-flex{
     grid-template-columns: repeat(2,1fr);
 }
       
 }
 @media screen and (max-width:768px){
+    .home-body{
+        text-align: center;
+    }
 .preloader h1{
     font-size: 1.6rem;
 }
     header{
         height: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
   nav{
     padding: 1rem 0.4rem;
@@ -263,7 +269,12 @@ width: 100%;
   .hero{
     flex-direction: column;
     padding: 2rem 0.4rem;
-  } 
+  }
+ 
+  .office{
+    font-style: italic;
+    font-size: 1rem;
+  }
   .hero img{
     display: none;
   } 
@@ -271,6 +282,12 @@ width: 100%;
     font-size: 1.4rem;
   }
     
+  .socials p span {
+
+            align-items: center;
+            justify-content: center;
+    }
+
    .project-hero{
     padding: 3rem 1rem;
   }
